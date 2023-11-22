@@ -1,0 +1,132 @@
+:root {
+ background-image: url('D:\Asif Ali\Quizz\Quizz\assets\logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #d19fe8;
+  font-size: 70.5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Times New Roman, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 20rem;
+}
+
+h1 {
+  font-size: 5.4rem;
+  color: #e6e8fa;
+  margin-bottom: 20rem;
+}
+
+h1 > span {
+  font-size: 5.4rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 5.2rem;
+  margin-bottom: 0rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 05.8rem;
+  font-weight: 500;
+}
+
+/* UTILITIES */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container > * {
+  width: 1000%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* BUTTONS */
+.btn {
+  font-size: 5.8rem;
+  padding: 0rem 0;
+  width: 15rem;
+  text-align: center;
+  border: 0.2rem solid #6a5acd; /* Change border color to purple */
+  margin-bottom: 0rem;
+  text-decoration: none;
+  color: #6a5acd; /* Change text color to purple */
+  background-color: #dcd0ff;
+  border-radius: 5rem; /* Apply border-radius to create an oval shape */
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(106, 90, 205, 0.5); /* Change box-shadow color to a lighter purple */
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* FORMS */
+form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 200rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: 12;
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input::placeholder {
+  color: #bbb;
+}
